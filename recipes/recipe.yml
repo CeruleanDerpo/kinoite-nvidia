@@ -32,8 +32,8 @@ modules:
         - firefox
         - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
   - type: akmods
-    install:
-      - nvidia-open
+    base: main
+    nvidia-driver: nvidia-open
   - type: default-flatpaks
     configurations:
       - notify: true # Send notification after install/uninstall is finished (true/false)
