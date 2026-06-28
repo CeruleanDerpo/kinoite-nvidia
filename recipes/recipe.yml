@@ -34,6 +34,7 @@ modules:
   - type: akmods
     base: main
     nvidia-driver: nvidia-open
+    install: []
   - type: default-flatpaks
     configurations:
       - notify: true # Send notification after install/uninstall is finished (true/false)
