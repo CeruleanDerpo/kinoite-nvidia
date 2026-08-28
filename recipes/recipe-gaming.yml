@@ -3,7 +3,7 @@
 # image will be published to ghcr.io/<user>/<name>
 name: kinoite-nvidia-gaming
 # description will be included in the image's metadata
-description: A version of kinoite-nvidia that includes RPMFusion and Steam
+description: A version of kinoite-nvidia that includes Negativo17 and Steam
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/kinoite-main
