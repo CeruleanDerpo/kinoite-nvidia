@@ -20,6 +20,7 @@ modules:
         - errornointernet/quickshell
         - yalter/niri
     install:
+      skip-unavailable: true
       packages:
         # Repo dependencies
         - terra-release
