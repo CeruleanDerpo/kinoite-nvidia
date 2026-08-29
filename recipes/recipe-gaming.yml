@@ -22,17 +22,5 @@ modules:
       skip-broken: true
       packages:
         - steam
-  
-  - type: dnf
-    repos:
-      files: 
-        remove:
-          - fedora-cdrtools-debug
-          - fedora-multimedia-debug
-          - fedora-nvidia-debug
-          - fedora-rar-debug
-          - fedora-spotify-debug
-          - fedora-steam-debug
-          - fedora-uld-debug
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
