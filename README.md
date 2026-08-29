@@ -61,7 +61,7 @@ The `latest` tag will automatically point to the latest build. That build will s
 A Kinoite image that includes the Nvidia drivers, the [Niri](https://niri-wm.github.io/niri/index.html) window manager and some tools for customization and shells, along with KDE Plasma as a fallback
 It tries to integrate Plasma's services instead of GNOME's to prevent duplicated functionality
 
-> [!info]
+> [!note]
 > The image doesn't come with the systemd services for the tools such as plasma-polkit-agent yet, so they will have to be configured manually
 
 ### Installation
