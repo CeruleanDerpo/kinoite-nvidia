@@ -19,6 +19,7 @@ modules:
       nonfree: negativo17
     install:
       skip-unavailable: true
+      skip-broken: true
       packages:
         - steam
   
