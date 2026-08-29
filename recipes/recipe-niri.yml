@@ -38,3 +38,5 @@ modules:
         - swayidle
         - fuzzel
         - qt6ct
+
+  - type: signing # this sets up the proper policy & signing files for signed images to work fully
