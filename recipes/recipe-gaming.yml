@@ -17,6 +17,15 @@ modules:
   - type: dnf
     repos:
       nonfree: negativo17
+      files: 
+        remove:
+          - fedora-cdrtools-debug
+          - fedora-multimedia-debug
+          - fedora-nvidia-debug
+          - fedora-rar-debug
+          - fedora-spotify-debug
+          - fedora-steam-debug
+          - fedora-uld-debug
     install:
       skip-unavailable: true
       skip-broken: true
