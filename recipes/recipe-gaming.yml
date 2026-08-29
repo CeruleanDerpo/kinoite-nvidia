@@ -16,7 +16,7 @@ modules:
 
   - type: dnf
     repos:
-      nonfree: negativo17
+      nonfree: rpmfusion
     install:
       skip-unavailable: true
       packages:
