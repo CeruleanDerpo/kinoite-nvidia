@@ -19,9 +19,8 @@ modules:
       files:
         - https://negativo17.org/repos/fedora-steam.repo
     install:
+      install-weak-deps: false
       packages:
-        - install-weak-deps: false
-          packages:
-            - steam
+        - steam
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
