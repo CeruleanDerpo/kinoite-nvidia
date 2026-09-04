@@ -23,3 +23,8 @@ modules:
         - swayidle
         - fuzzel
         - qt6ct
+  
+  - type: files
+    files:
+      - source: modules/niri
+        destination: / # copies files/additional/niri/* (* means everything inside it) into your image's root folder /
