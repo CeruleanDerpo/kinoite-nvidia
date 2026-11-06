@@ -15,4 +15,10 @@ modules:
   - from-file: common-modules.yml
   - from-file: niri-modules.yml
 
+  - type: dnf
+    install:
+      skip-unavailable: true
+      packages:
+        - mako
+
   - type: signing # this sets up the proper policy & signing files for signed images to work fully

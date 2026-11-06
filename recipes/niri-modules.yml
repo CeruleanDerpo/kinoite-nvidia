@@ -10,7 +10,6 @@ modules:
         # Repo dependencies
         - terra-release
         # Niri ricing
-        - mako
         - quickshell-git
         # Niri & dependencies
         - niri
