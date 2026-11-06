@@ -13,14 +13,6 @@ image-version: latest # latest is also supported if you want new updates ASAP
 # you can include multiple instances of the same module
 modules:
   - from-file: common-modules.yml
-
-  - type: dnf
-    repos:
-      files:
-        - https://negativo17.org/repos/fedora-steam.repo
-    install:
-      install-weak-deps: false
-      packages:
-        - steam
+  - from-file: modules/gaming.yml
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
